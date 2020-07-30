@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "987422300372",
+    "firebase_url": "https://alggao-26981734.firebaseio.com",
+    "project_id": "alggao-26981734",
+    "storage_bucket": "alggao-26981734.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987422300372:android:3dbbdfeba74c9768",
+        "android_client_info": {
+          "package_name": "com.jhj.at"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987422300372-f04c4j7jhi67it70b2bklaqifrdg6irb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jhj.at",
+            "certificate_hash": "cb9698f9d1d0631fe32233b2d99e71a36574cf19"
+          }
+        },
+        {
+          "client_id": "987422300372-c8en8djvt1rgeoidkhj0da07bubpkrf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp9fNeXtotuZA8i1lfUuCVwwDG7yoFMYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987422300372-c8en8djvt1rgeoidkhj0da07bubpkrf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
