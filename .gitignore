@@ -55,6 +55,13 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+# JHJ
+/Assets/Resource/
+/Assets/Firebase/
+/Assets/Plugins/
+/Assets/GooglePlayGames/
+ServerData.cs
+
 # Crashlytics generated file
 crashlytics-build.properties
 

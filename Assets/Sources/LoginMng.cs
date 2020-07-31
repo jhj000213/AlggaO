@@ -86,10 +86,10 @@ public class LoginMng : MonoBehaviour
     private void Start()
     {
         firebaseApp = FirebaseDatabase.DefaultInstance.App;
-        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://alggao-26981734.firebaseio.com/");
+        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl(ServerData.Data._FirebaseUrl);
         databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
-        FirebaseApp.DefaultInstance.SetEditorP12FileName("alggao-26981734-f65841d9b0d7.p12");
-        FirebaseApp.DefaultInstance.SetEditorP12Password("notasecret");
+        FirebaseApp.DefaultInstance.SetEditorP12FileName(ServerData.Data._FirebaseFileName);
+        FirebaseApp.DefaultInstance.SetEditorP12Password(ServerData.Data._FirebasePassword);
 
         _CanMatching = false;
 

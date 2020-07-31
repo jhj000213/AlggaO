@@ -80,10 +80,7 @@ public class ClientMng : MonoBehaviour
     {
         try
         {
-            client.Connect("52.141.20.150", 7125);
-            //client.Connect("192.168.200.172", 7125);
-
-            //client.Connect("113.131.43.152", 7125);
+            client.Connect(ServerData.Data._ServerAddress, ServerData.Data._ServerPort);
             networkStream = client.GetStream();
             Encoding encode = Encoding.GetEncoding("UTF-8");
             readerStream = new StreamReader(networkStream);
